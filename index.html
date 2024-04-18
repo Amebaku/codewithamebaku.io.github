@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+    <script src="https://kit.awesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <!--<a href="logo">CodeWithGodfrey</a>---> 
+                <img src="images/twitter_profile_1000x1000.png" class="logo" height="145px" width="85px"> 
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>  
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Profolio</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm<span> Godfrey Ito</span><br>From Uganda</h1>
+
+            </div>
+        </div>
+    </div>
+    <!--------------------------FRONT VIEW ABOUT DETAILS--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile pic.jpg" alt="" height="450px" width="350px">
+                    
+                </div>
+                <div class="about-col-2">
+                  <h1 class="sub-title">About Me</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Placeat consequuntur quod, 
+                    temporibus est corporis earum debitis ullam quisquam atque doloribus sit asperiores ipsa dolores doloremque dolorum repellat! Tempora,
+                     tenetur non.</p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                       <ul>
+                        <li><span>Software Development</span><br>Designing Web / App Interfaces</li>
+                        <li><span>Web Development</span><br>Web App Developent</li>
+                        <li><span>App Development</span><br>Building Android / ios Apps</li>
+                       </ul>
+                     </div>
+
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                         <li><span>2021 - Current</span><br>Designing Web/App Interfaces at Codeinfint Tech-Institute</li>
+                         <li><span>2019 - 2021</span><br>Team lead at starApp LLC</li>
+                         <li><span>2017 - 2019</span><br>Design Executive at Tech-Institute Ltd Ug</li>
+                         <li><span>2016 - 2017</span><br>Internship at URA Uganda Limited</li>
+
+                        </ul>
+                      </div>
+
+                      <div class="tab-contents" id="education">
+                        <ul>
+                         <li><span>2016</span><br>MBA at Codeinfint Tech-Institute </li>
+                         <li><span>2016</span><br>BBA at ISBAT unversity</li>
+                         <li><span>2014</span><br>Degree at Design Executive</li>
+                        </ul>
+                      </div>
+
+                      <div class="tab-contents" id="languages">
+                        <ul>
+                         <li><span>English</span><br>Fluently Excellent at English language</li>
+                         <li><span>Kiswahili</span><br>Fairly Great at Kiswahili language</li>
+                         <li><span>Arabic</span><br>Great In Arabic language</li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------SERVICES OFFERED--------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Mobile App Developent</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Numquam unde sapiente quos, aliquid quo molestiae labore, 
+                    impedit reiciendis autem, nostrum reprehenderit. 
+                    Voluptatum facere labore dolorem suscipit repellendus eaque dolorum beatae!</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <h2>UI/UX Designing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Numquam unde sapiente quos, aliquid quo molestiae labore, 
+                    impedit reiciendis autem, nostrum reprehenderit. 
+                    Voluptatum facere labore dolorem suscipit repellendus eaque dolorum beatae!</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <h2>Web Developent</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Numquam unde sapiente quos, aliquid quo molestiae labore, 
+                    impedit reiciendis autem, nostrum reprehenderit. 
+                    Voluptatum facere labore dolorem suscipit repellendus eaque dolorum beatae!</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-----------------MY PROFOLIO ----------------->
+
+    <div id="profolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+         <div class="work-list">
+            <div class="work">
+                <img src="images/Mobile App.jpeg" alt="" height="450px" width="350px">
+                <div class="layer">
+                    <h3>Mobile App Developent</h3>
+                    <p>This App connects you to talented people in the world . Download the App from the Playstore</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/Dopop-UI_UX Design.jpeg" alt="" height="450px" width="350px">
+                <div class="layer">
+                    <h3>UI/UX Designing </h3>
+                    <p>This App connects you to talented people in the world . Download the App from the Playstore</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/App3.jpg" alt="" height="450px" width="350px">
+                <div class="layer">
+                    <h3>UI/UX Designing</h3>
+                    <p>This App connects you to talented people in the world . Download the App from the Playstore</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+         </div>
+      </div>  
+      <a href="#" class="btn">See More</a>
+    </div>
+    <!----------------------------------------CONTACT FORM ----------------------------------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>Contact@CodeWithGodfrey.com</p>
+                <p class="bi bi-whatsapp">+256 788 790 644</p>
+                <div class="social-icons">
+                    <a href="bi bi-whatsapp"><i class="bi bi-facebook"></i></i></a>
+                    <i class="bi bi-whatsapp"></i>
+                </div>
+                <a href="images/PostgreSQL Query Optimization.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="container-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name "Required>
+                    <input type="text" name="email" placeholder="Your email "Required>
+                    <textarea name="message" rows="6" placeholder="Your Message">
+                        
+                    </textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+   </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+</body>
+</html>
